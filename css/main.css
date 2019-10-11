@@ -11,7 +11,7 @@
 }
 /* lateral bar*/
 .lateral-bar{
-  width: 40vh;
+  width: 45vh;
   height: 90vh;
   background-color: white;
 }
@@ -33,6 +33,7 @@
   height: 90vh;
 }
 
+/* top-bar */
 .top-bar{
   width: 100%;
   height: 10vh;
@@ -59,13 +60,22 @@
   color: grey;
 }
 
-.top-bar li:hover{
+.top-bar a:hover {
   color: white;
 }
+
+/* music container */
 .music-container{
   width: 100%;
   height: 80vh;
   background-color: grey;
+  overflow-y: scroll;
+}
+
+.recent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /* bar riproduction container */
