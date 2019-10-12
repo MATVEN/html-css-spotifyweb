@@ -155,8 +155,24 @@
   color: white;
 }
 
+/* song */
 .song{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 15px;
+}
+
+.song-cover i{
+  font-size: 65px;
+}
+
+.song-details{
+  padding-top: 17.5px;
+  padding-left: 15px;
+}
+
+.song-icon{
+  padding-top: 25px;
+  padding-left: 20px;
 }
