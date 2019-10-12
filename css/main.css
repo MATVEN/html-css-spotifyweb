@@ -195,5 +195,11 @@
 .others-elements{
   width: 25%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+.others-elements i{
+  padding: 9px;
+  font-size: 14px;
+  color: grey;
 }
