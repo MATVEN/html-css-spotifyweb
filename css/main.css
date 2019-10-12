@@ -7,30 +7,92 @@
 .flex-container{
   width: 100%;
   display: flex;
-  height: 90vh;
+  height: 85vh;
 }
 /* lateral bar*/
 .lateral-bar{
-  width: 45vh;
-  height: 90vh;
+  width: 42.5vh;
+  height: 85vh;
   background-color: white;
+  padding: 25px;
 }
 
+/* logo */
 .logo{
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.logo i{
+  font-size: 40px;
+}
+
+.logo h3{
+  font-size: 27px;
+  margin-left: 5px;
+}
+
+/* navbar1 */
+.navbar1{
+    padding-top: 10px;
+}
+
+.navbar1 a{
+  text-decoration: none;
 }
 
 .navbar1 li{
-  padding: 10px;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
 }
+
+.navbar1 i{
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+/* playlist */
+.playlist{
+  padding-top: 25px;
+}
+
+.createplaylist{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.createplaylist i{
+  font-size: 40px;
+  padding-right: 10px;
+  padding-left: 3px;
+}
+
+/* download */
+.download{
+  padding-top: 55px;
+  align-items: center;
+}
+
+.download i{
+  font-size: 16px;
+  padding-left: 5px;
+  padding-right: 13px;
+}
+
+.download hr{
+  margin-top: 12px;
+}
+/* flex container 2 */
 .flex-container2{
   flex-wrap: wrap;
   width: 100%;
   display: flex;
-  height: 90vh;
+  height: 85vh;
 }
 
 /* top-bar */
@@ -67,7 +129,7 @@
 /* music container */
 .music-container{
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   background-color: grey;
   overflow-y: scroll;
 }
@@ -81,7 +143,7 @@
 /* bar riproduction container */
 .bottom-bar{
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   background-color: red;
   display: flex;
   flex-direction: row;
