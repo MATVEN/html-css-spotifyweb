@@ -169,10 +169,6 @@
   list-style-type: none;
 }
 
-.cover-art-img {
-
-}
-
 .cover li{
   display: inline-block;
   width: calc((100%/6) - 4px);
