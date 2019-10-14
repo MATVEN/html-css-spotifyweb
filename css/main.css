@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* font */
+/*@font-face {
+  font-family: 'spotify-circular';
+  src: url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff2') format('woff2'), url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff') format('woff'), url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.ttf') format('truetype');*/
+
 .flex-container{
   width: 100%;
   display: flex;
@@ -238,8 +243,18 @@
 }
 
 .layover{
+  max-width: 100%;
   position: absolute;
   display: none;
+}
+
+.layover i{
+  font-size: 40px;
+}
+
+li .layover:hover{
+  display: block;
+  opacity: 50%;
 }
 
 /* advertisement */
