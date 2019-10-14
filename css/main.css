@@ -5,10 +5,19 @@
 }
 
 /* font */
-/*@font-face {
+@font-face {
   font-family: 'spotify-circular';
-  src: url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff2') format('woff2'), url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff') format('woff'), url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.ttf') format('truetype');*/
+  src: url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff2')
+  format('woff2'), url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.woff')
+  format('woff'), url('https://open.scdn.co/fonts/CircularSpUIv3T-Light.ttf')
+  format('truetype');
+  }
 
+body{
+  font-family: "spotify-circular"
+}
+
+  /* flex container */
 .flex-container{
   width: 100%;
   display: flex;
@@ -67,9 +76,8 @@
   padding-top: 20px;
 }
 
-.navbar1 i{
-  font-size: 22px;
-  padding-right: 10px;
+.navbar1 img{
+  width: 22px;
 }
 
 /* playlist */
@@ -84,8 +92,8 @@
   padding-top: 10px;
 }
 
-.createplaylist i{
-  font-size: 40px;
+.createplaylist img{
+  width: 40px;
   padding-right: 10px;
   padding-left: 3px;
 }
