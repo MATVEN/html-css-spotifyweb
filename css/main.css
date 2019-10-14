@@ -14,7 +14,7 @@
   }
 
 body{
-  font-family: "spotify-circular"
+  font-family: "spotify-circular";
 }
 
   /* flex container */
@@ -32,7 +32,7 @@ body{
   padding: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* logo */
@@ -64,6 +64,11 @@ body{
   align-items: center;
 }
 
+.navbar1 h4{
+  font-size: 14px;
+  padding-left: 15px;
+}
+
 .navbar1 a:hover{
   color: white;
 }
@@ -83,6 +88,7 @@ body{
 /* playlist */
 .playlist{
   padding-top: 25px;
+  font-size: 14px;
 }
 
 .createplaylist{
@@ -264,12 +270,12 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 70px;
+  color: white;
 }
 
 li:hover .layover{
   display: block;
-  opacity: 50%;
 }
 
 /* advertisement */
@@ -305,7 +311,7 @@ li:hover .layover{
 }
 
 /* song */
-.song{
+.track{
   width: 25%;
   display: flex;
   flex-direction: row;
@@ -313,16 +319,16 @@ li:hover .layover{
   color: darkgrey;
 }
 
-.song-cover i{
+.track-cover i{
   font-size: 65px;
 }
 
-.song-details{
+.track-details{
   padding-top: 17.5px;
   padding-left: 15px;
 }
 
-.song-icon{
+.track-icon{
   padding-top: 25px;
   padding-left: 20px;
 }
@@ -331,7 +337,9 @@ li:hover .layover{
 .riproduction-bar{
   width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .option-bar i{
@@ -342,6 +350,27 @@ li:hover .layover{
 #start{
   font-size: 22px;
 }
+
+.timebar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timebar p{
+  font-size: 11px;
+  color: darkgrey;
+  padding: 8px;
+}
+
+.duration-bar{
+  width: 65%;
+  height: 3px;
+  margin-top: 2px;
+  background-color: darkgrey;
+}
+
 /* others elements */
 .others-elements{
   width: 25%;
@@ -353,4 +382,11 @@ li:hover .layover{
   padding: 9px;
   font-size: 14px;
   color: darkgrey;
+}
+
+.volume{
+  width: 30%;
+  height: 3px;
+  background-color: darkgrey;
+  margin-top: 15px;
 }
