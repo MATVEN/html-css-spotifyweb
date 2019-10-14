@@ -45,16 +45,20 @@
 .navbar1 a{
   text-decoration: none;
   color:darkgrey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .navbar1 a:hover{
   color: white;
 }
 
+.navbar1 ul{
+  list-style-type: none;
+}
+
 .navbar1 li{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding-top: 20px;
 }
 
@@ -233,8 +237,9 @@
   border-radius: 50%;
 }
 
-.cover img:hover{
-
+.layover{
+  position: absolute;
+  display: none;
 }
 
 /* advertisement */
