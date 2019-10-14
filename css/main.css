@@ -242,14 +242,21 @@
   border-radius: 50%;
 }
 
+.box{
+  position: relative;
+}
+
 .layover{
   max-width: 100%;
-  position: absolute;
   display: none;
 }
 
 .layover i{
-  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
 }
 
 li:hover .layover{
