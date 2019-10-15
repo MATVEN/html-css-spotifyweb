@@ -19,7 +19,7 @@
         </div>
         <div class="navbar1">
           <ul>
-            <li>
+            <li id="border1">
               <a href="#"><img src="icon/home-black-active.svg" alt="">
               <h4><strong>Home</strong></h4></a>
             </li>
@@ -62,7 +62,7 @@
     <div class="flex-container2">
       <div class="top-bar">
         <ul>
-          <li><strong><a href="#">IN EVIDENZA</a></strong></li>
+          <li id="border2"><strong><a href="#">IN EVIDENZA</a></strong></li>
           <li><strong><a href="#">PODCAST</a></strong></li>
           <li><strong><a href="#">CLASSIFICHE</a></strong></li>
           <li><strong><a href="#">GENERI E MOOD</a></strong></li>
@@ -426,14 +426,11 @@
           <div class="track-cover">
             <i class="far fa-square"></i>
           </div>
-
-          <div id="track-details">Track
-            <!--<h5><strong>------</strong></h5>
-            <h5>------</h5>-->
+          <!-- track details -->
+          <div class="track-details">
+            <div id="trackname"></div>
+            <div id="artist"></div>
           </div>
-
-          <div id="artist">Artist</div>
-
           <div class="track-icon">
             <i class="far fa-heart"></i>
           </div>
@@ -465,5 +462,6 @@
         </div>
       </div>
     </div>
+    <script src="javascript/main.js"></script>
   </body>
 </html>

@@ -79,7 +79,11 @@ body{
 }
 
 .navbar1 li{
-  padding-top: 20px;
+  margin-top: 20px;
+}
+
+#border1{
+  border-left: 3px solid green;
 }
 
 .navbar1 img{
@@ -173,9 +177,12 @@ body{
 }
 
 .top-bar li{
-  margin-top: 20px;
-  padding: 20px;
+  margin: 20px;
   font-size: 14px;
+}
+
+#border2{
+  border-bottom: 3px solid green;
 }
 
 .top-bar a{
@@ -324,9 +331,13 @@ li:hover .layover{
   font-size: 65px;
 }
 
-#track-details{
-  padding-top: 17.5px;
-  padding-left: 15px;
+.track-details{
+  margin: 10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .track-icon{
