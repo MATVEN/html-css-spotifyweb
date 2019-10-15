@@ -33,6 +33,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  overflow: hidden;
 }
 
 /* logo */
@@ -323,7 +324,7 @@ li:hover .layover{
   font-size: 65px;
 }
 
-.track-details{
+#track-details{
   padding-top: 17.5px;
   padding-left: 15px;
 }
@@ -367,7 +368,7 @@ li:hover .layover{
 .duration-bar{
   width: 65%;
   height: 3px;
-  margin-top: 2px;
+  margin-top: 3px;
   background-color: darkgrey;
 }
 
