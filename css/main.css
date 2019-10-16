@@ -82,7 +82,7 @@ body{
 }
 
 #border1{
-  border-left: 3px solid green;
+  border-left: 3px solid #1ed760;
 }
 
 .navbar1 img{
@@ -171,17 +171,17 @@ body{
 .top-bar ul{
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items:baseline;
   list-style-type: none;
 }
 
 .top-bar li{
-  margin: 20px;
-  font-size: 14px;
+  margin: 30px;
+  font-size: 12px;
 }
 
 #border2{
-  border-bottom: 3px solid green;
+  border-bottom: 3px solid #1ed760;
   padding-bottom: 5px;
 }
 
@@ -334,10 +334,10 @@ li:hover .layover{
 .track-details{
   margin: 10px;
   padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+}
+
+#trackname:hover, #artist:hover{
+  color: white;
 }
 
 .track-icon{
